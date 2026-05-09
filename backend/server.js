@@ -9,7 +9,11 @@ const authRoutes = require("./routes/authRoutes");
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: ["http://localhost:5173", "https://planora-orcin.vercel.app/login"],
+  credentials: true,
+}));
+
 app.use(express.json());
 
 // Routes
