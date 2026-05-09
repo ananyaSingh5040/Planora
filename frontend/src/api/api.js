@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://planora-83ve.onrender.com",
+  baseURL: "https://planora-83ve.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
