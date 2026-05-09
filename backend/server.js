@@ -10,7 +10,7 @@ const app = express();
 
 // Middlewares
 app.use(cors({
-  origin: ["http://localhost:5173", "https://planora-orcin.vercel.app/login"],
+  origin: ["http://localhost:5173", "https://planora-orcin.vercel.app"],
   credentials: true,
 }));
 
