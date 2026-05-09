@@ -1,0 +1,32 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Planora logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Planora icon with cursive P on rose pink gradient circle</desc>
+
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb7185"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fda4af"/>
+      <stop offset="100%" style="stop-color:#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fecdd3;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#fce7f3;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer soft ring -->
+  <circle cx="340" cy="340" r="300" fill="url(#grad3)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Main circle -->
+  <circle cx="340" cy="340" r="260" fill="url(#grad1)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Inner glow overlay -->
+  <circle cx="310" cy="310" r="200" fill="url(#grad2)" opacity="0.3" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!--
+    Cursive/script P centered at 340,340
+    Built from bezier curves — elegant, flowing stem with a rounded bowl
+  -->
+  <path d="&#10;      M 295 480&#10;      C 295 480 285 440 285 380&#10;      C 285 300 285 230 290 200&#10;      C 295 175 310 165 330 165&#10;      C 360 165 400 175 415 210&#10;      C 430 245 425 295 405 320&#10;      C 385 345 355 355 325 352&#10;      C 310 350 295 340 290 330&#10;    " fill="none" stroke="white" stroke-width="38" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:38px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
